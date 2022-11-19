@@ -26,5 +26,10 @@ class DaftarActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        linkLogin.setOnClickListener(){
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
